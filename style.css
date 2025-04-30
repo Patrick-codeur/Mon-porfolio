@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #1f2039;  /* Orange comme sur l'exemple */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color:#f57c00
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 900px;
+    width: 90%;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    margin-right: 30px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #f57c00; /* Bordure orange autour de l'image */
+    object-fit: cover;
+}
+
+.profile-info {
+    max-width: 600px;
+}
+.profile-info h1 {
+    font-size: 2.5rem;
+    color: #f57c00;
+    margin-bottom: 15px;
+}
+
+.profile-info h1 span {
+    font-weight: bold;
+}
+.profile-info p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background-color: #f57c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.download-cv:hover {
+    background-color:#1f2039 /* Couleur un peu plus claire au survol */
+}
+
+h2 {
+    color:black;
+}
+.socials a {
+    color: #ccc;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  .socials a:hover{
+    color: #ff7b00;
+  }
+
+
