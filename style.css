@@ -1,39 +1,42 @@
+
+/* Reset des marges et paddings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Corps de la page */
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
-    color: #333;
+    color: rgb(5, 5, 37);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
+    /* height: 100vh; */
+    /* margin: 0; */
 }
 
+/* Style de la barre de navigation */
 header {
     width: 100%;
-    background-color: #1f2039;  /* Orange comme sur l'exemple */
+    background-color: rgb(5, 5, 10);  /* Orange comme sur l'exemple */
     padding: 10px 0;
 }
-
-nav ul {
+nav {
     list-style: none;
     display: flex;
     justify-content: flex-end;
 }
 
-nav ul li {
+.lien a {
     margin: 0 15px;
 }
 
-nav ul li a {
-    color: white;
+ .lien a {
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
@@ -41,10 +44,10 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color:#f57c00
+.lien a:hover {
+    color: #f57c00;
 }
-
+/* Profil */
 .profile {
     display: flex;
     align-items: center;
@@ -52,9 +55,8 @@ nav ul li a:hover {
     margin-top: 50px;
     max-width: 900px;
     width: 90%;
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 10px;
+    background-color: #fff;padding: 40px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -63,25 +65,26 @@ nav ul li a:hover {
 }
 
 .profile-image img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid #f57c00; /* Bordure orange autour de l'image */
+    width: 180px;
+    height: 200px;
+    border-radius: 5px;
+    border: 5px solid blue Bordure;
     object-fit: cover;
 }
 
 .profile-info {
     max-width: 600px;
 }
+
 .profile-info h1 {
     font-size: 2.5rem;
     color: #f57c00;
     margin-bottom: 15px;
 }
-
 .profile-info h1 span {
     font-weight: bold;
 }
+
 .profile-info p {
     font-size: 1.2rem;
     margin-bottom: 20px;
@@ -89,10 +92,10 @@ nav ul li a:hover {
     color: #555;
 }
 
-.download-cv {
+.download {
     padding: 10px 20px;
     background-color: #f57c00;
-    color: white;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -102,20 +105,6 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.download-cv:hover {
-    background-color:#1f2039 /* Couleur un peu plus claire au survol */
+.download a:hover {
+    color: blue;
 }
-
-h2 {
-    color:black;
-}
-.socials a {
-    color: #ccc;
-    margin-right: 15px;
-    text-decoration: none;
-  }
-  .socials a:hover{
-    color: #ff7b00;
-  }
-
-
