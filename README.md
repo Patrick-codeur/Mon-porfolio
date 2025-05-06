@@ -2,3 +2,4 @@
 Ce projet consistait à valider le module 2 de notre formation en développement web du projet D-CLIC en créant une section héros d'un site web
 
 ![capture d'ecran du site web](capture.png)
+## Aperçu de mon projet
